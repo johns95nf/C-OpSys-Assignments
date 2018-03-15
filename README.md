@@ -10,3 +10,4 @@ Requirements:
   -Must adhere to older C standards (alphabetical variable declaration, all variables declared at the start, etc.)
   -All programs are written in or edit the operating system Minix
   
+
