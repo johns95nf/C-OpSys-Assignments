@@ -1,7 +1,7 @@
 # C-OpSys-Assignments
-Assignments given in CPS 470: Introduction to Operating Systems
+### Assignments given in CPS 470: Introduction to Operating Systems
 
-All assignments are written in the C programming language.
+All assignments are written in the C programming language
 
 Requirements:
   - Must compile
