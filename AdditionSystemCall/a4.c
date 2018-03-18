@@ -40,6 +40,7 @@ Functions/methods used:
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
 #include "mycall.c"
 
