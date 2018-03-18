@@ -4,7 +4,7 @@
 All assignments are written in the C programming language
 
 Descriptions:
-  - AdditionSystemCall: Necessary C files and a list of .diff files displaying the differences made in the Minix operating system to add a simple addition system call.
+  - -AdditionSystemCall-: Necessary C files and a list of .diff files displaying the differences made in the Minix operating system to add a simple addition system call.
   - FileCopy: A C file that takes a list of files and a destination location and copies the files to the location.
   - MinixProcesses: A C file that determines the number of simultaneous processes Minix can support for a single user.
 
