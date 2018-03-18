@@ -1,0 +1,19 @@
+*** table.c  crc=46627   2777	Sun Feb 25 19:50:29 2018
+--- ./bak/table.c  crc=45242   2775	Sun Feb 25 19:04:17 2018
+***************
+*** 72,78 ****
+  	no_sys,		/* 55 = fcntl	*/
+  	no_sys,		/* 56 = (mpx)	*/
+  	no_sys,		/* 57 = unused	*/
+! 	do_mycall,	/* 58 = unused	*/
+  	do_exec,	/* 59 = execve	*/
+  	no_sys,		/* 60 = umask	*/
+  	no_sys,		/* 61 = chroot	*/
+--- 72,78 ----
+  	no_sys,		/* 55 = fcntl	*/
+  	no_sys,		/* 56 = (mpx)	*/
+  	no_sys,		/* 57 = unused	*/
+! 	no_sys,		/* 58 = unused	*/
+  	do_exec,	/* 59 = execve	*/
+  	no_sys,		/* 60 = umask	*/
+  	no_sys,		/* 61 = chroot	*/

@@ -1,0 +1,9 @@
+*** proto.h  crc=53060   2716	Sun Feb 25 19:26:10 2018
+--- ./bak/proto.h  crc=05280   2675	Sun Feb 25 19:03:51 2018
+***************
+*** 77,80 ****
+  _PROTOTYPE( int no_sys, (void)						);
+  _PROTOTYPE( void panic, (char *format, int num)				);
+  _PROTOTYPE( void tell_fs, (int what, int p1, int p2, int p3)		);
+- _PROTOTYPE( int do_mycall, (void)					);
+--- 77,79 ----

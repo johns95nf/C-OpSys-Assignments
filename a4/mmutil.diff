@@ -1,0 +1,41 @@
+*** utility.c  crc=08874   4730	Sun Feb 25 20:40:43 2018
+--- ./bak/utility.c  crc=35187   3831	Sun Feb 25 19:04:08 2018
+***************
+*** 112,147 ****
+    m.m1_i3 = p3;
+    _taskcall(FS_PROC_NR, what, &m);
+  }
+- 
+- 
+- /*=========================================================================*
+-  *                               do_mycall                                 *
+-  *=========================================================================*/
+- /*
+- Problem: We want to perform three different operations on two given
+- 	integers: subtraction, multiplication, and addition. This is done
+- 	through a system call.
+-  
+- Solution: Write a system call that takes two integers, a and b, from the
+- 	memory manager's i1 and i2 input. These are sent back out using
+- 	mp_reply and the desired operations are performed. Returns 1 to
+- 	the caller on completion.
+- */
+- PUBLIC int do_mycall()
+- {
+- 	int a, b, r;
+- 	int who;
+- 	struct mproc *rmp;
+- 	
+- 	who = mm_in.m_source;
+- 	rmp = &mproc[who];
+- 	
+- 	a = mm_in.m1_i1;
+- 	b = mm_in.m1_i2;
+- 
+- 	(rmp->mp_reply).m1_i1 = a - b;
+- 	(rmp->mp_reply).m1_i2 = a * b;
+- 	(rmp->mp_reply).m1_i3 = a + b;
+- 	
+- 	return r = 1;
+- }
+--- 112,114 ----
