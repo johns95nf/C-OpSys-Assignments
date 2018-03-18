@@ -3,6 +3,11 @@
 
 All assignments are written in the C programming language
 
+Descriptions:
+  - A2: 
+  - A3: 
+  - A4: 
+
 Requirements:
   - Must compile
   - No warnings or errors
