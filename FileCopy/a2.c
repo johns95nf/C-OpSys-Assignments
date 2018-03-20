@@ -2,7 +2,7 @@
 Name: Nathan Johnson		
 Class: CPS 470				Section: 22342759			
 Assignment: A2				Credit: 10
-Started: January, 28 2018	Due: January 31, 2018
+Started: January 28, 2018	Due: January 31, 2018
 
 Problem Statement: Write a well documented, copmlete, and modular C-program
 that will copy the given files to a specific destination directory using
@@ -55,13 +55,13 @@ Limitations: Can only transfer files 1024 or smaller in size.
 Acknowledgement: None
 
 Functions used:
-	buildpath():
-	chkdst():
-	die():
-	isdir():
-	isregular():
-	makecp():
-	usage():
+	- buildpath();
+	- chkdst();
+	- die();
+	- isdir();
+	- isregular();
+	- makecp();
+	- usage();
 */
 
 #include <fcntl.h>
